@@ -1,0 +1,95 @@
+QWidget {
+    font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+    font-size: 13px;
+}
+QWidget#sidebar_widget {
+    background-color: #e7eefc;
+}
+QPushButton {
+    background-color: transparent;
+    color: #2d3a4d;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+QPushButton:hover {
+    background-color: #c7d7f5;
+    color: #174ea6;
+}
+QPushButton:pressed {
+    background-color: #b6c7e3;
+}
+QMainWindow {
+    background-color: #f7f9fb;
+}
+QVBoxLayout, QHBoxLayout {
+    margin: 0px;
+    spacing: 8px;
+}
+QLabel[cssClass="title"] {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2d3a4d;
+}
+QLabel {
+    color: #2d3a4d;
+}
+QPushButton {
+    background-color: #4f8cff;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+QPushButton:hover {
+    background-color: #2563eb;
+}
+QPushButton:pressed {
+    background-color: #174ea6;
+}
+QTableWidget {
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #e0e6ed;
+    gridline-color: #e0e6ed;
+}
+QHeaderView::section {
+    background: #e7eefc;
+    color: #2d3a4d;
+    font-weight: bold;
+    border: none;
+    padding: 6px;
+}
+QTableWidget::item {
+    padding: 4px;
+}
+QTableWidget::item:selected {
+    background: #dbeafe;
+}
+QLineEdit, QComboBox, QDateEdit, QTextEdit, QSpinBox, QDoubleSpinBox {
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    background: #f9fafb;
+    padding: 4px 8px;
+}
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus, QTextEdit:focus, QSpinBox:focus, QDoubleSpinBox:focus {
+    border: 1.5px solid #4f8cff;
+    background: #fff;
+}
+QScrollBar:vertical {
+    background: #f1f5f9;
+    width: 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+    background: #b6c7e3;
+    min-height: 20px;
+    border-radius: 5px;
+}
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    height: 0px;
+}
